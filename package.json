@@ -5,5 +5,8 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "strict": true
+  },
+  "devDependencies": {
+    "vitest": "^5.0.0"
   }
 }
