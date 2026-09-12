@@ -7,3 +7,4 @@ export class Planeta {
         this.masa = masa;
     }
 }
+

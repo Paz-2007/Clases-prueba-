@@ -1,24 +1,9 @@
 {
-  "name": "clases-prueba-",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Paz-2007/Clases-prueba-.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Paz-2007/Clases-prueba-/issues"
-  },
-  "homepage": "https://github.com/Paz-2007/Clases-prueba-#readme",
-  "devDependencies": {
-    "typescript": "^7.0.2"
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true
   }
 }

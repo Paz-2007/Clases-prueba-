@@ -1,1 +1,1 @@
-import class Planeta from './Planeta';
+import { Planeta } from "./Planeta";
