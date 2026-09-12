@@ -1,7 +1,9 @@
 export class Lana {
-    tipo: string;
+    private _tipo: string;
 
     constructor(tipo: string) {
-        this.tipo = tipo;
-    }
+        this._tipo = tipo;
+    } // Constructor que recibe el tipo de lana como parámetro
+
+
 }

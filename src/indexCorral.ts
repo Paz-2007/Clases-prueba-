@@ -1,4 +1,6 @@
-const nombres = [
+import { Corral } from "./corral";
+
+const nombres = [ // Array de nombres de corrales
     "Corral Cuadrado Norte",
     "Corral Cuadrado Sur",
     "Corral Cuadrado Este",
@@ -114,3 +116,12 @@ const nombres = [
     "Corral Cerrado Este",
     "Corral Cerrado Oeste"
 ];
+
+const corrales: Corral[] = [];
+
+for (const nombre of nombres) {
+    const corral = new Corral(nombre);
+    // Crea una instancia de Corral con el nombre de cada elemento del array nombres
+    corrales.push(corral);
+    // Agrega la instancia de Corral al array corrales
+}
