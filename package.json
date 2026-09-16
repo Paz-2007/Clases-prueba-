@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "vitest"
+  },
   "compilerOptions": {
     "target": "ES2020",
     "module": "CommonJS",
