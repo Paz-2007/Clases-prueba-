@@ -8,3 +8,4 @@ describe("Lana", () => {
         expect(lana).toBeInstanceOf(Lana);
     });
 }); 
+
