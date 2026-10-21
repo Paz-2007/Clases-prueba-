@@ -1,3 +1,5 @@
+
+
 type Venta = {
   producto: string;
   categoria: "libros" | "tecnologia";
